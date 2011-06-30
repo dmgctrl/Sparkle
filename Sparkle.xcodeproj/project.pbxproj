@@ -1229,6 +1229,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREFIX_HEADER = Sparkle.pch;
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = Sparkle;
 			};
 			name = Debug;
@@ -1237,6 +1238,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREFIX_HEADER = Sparkle.pch;
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = Sparkle;
 			};
 			name = Release;
@@ -1244,6 +1246,7 @@
 		1DEB91B208733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 			};
 			name = Debug;
@@ -1251,6 +1254,7 @@
 		1DEB91B308733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 			};
 			name = Release;
