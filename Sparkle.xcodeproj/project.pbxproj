@@ -1230,6 +1230,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = Sparkle.pch;
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = Sparkle;
 			};
 			name = Debug;
@@ -1239,6 +1240,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = Sparkle.pch;
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = Sparkle;
 			};
 			name = Release;
@@ -1248,6 +1250,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
 		};
@@ -1256,18 +1259,21 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;
 		};
 		5D06E8D20FD68C7D005AE3F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
 		};
 		5D06E8D30FD68C7D005AE3F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;
 		};
@@ -1302,6 +1308,7 @@
 		DAAEFC980DA571DF0051E0D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = relaunch;
 			};
 			name = Debug;
@@ -1309,6 +1316,7 @@
 		DAAEFC990DA571DF0051E0D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = relaunch;
 			};
 			name = Release;
